@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JMStaticLibrary_Example' do
+  pod 'JMStaticLibrary', :path => '../'
+
+  target 'JMStaticLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
