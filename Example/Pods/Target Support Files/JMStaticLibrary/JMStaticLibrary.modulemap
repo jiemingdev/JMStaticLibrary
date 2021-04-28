@@ -1,0 +1,6 @@
+framework module JMStaticLibrary {
+  umbrella header "JMStaticLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

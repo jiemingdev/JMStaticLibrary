@@ -1,0 +1,25 @@
+{
+  "name": "JMStaticLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of JMStaticLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiemingdev/JMStaticLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jieming": "307113345@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jiemingdev/JMStaticLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JMStaticLibrary/Classes/**/*",
+  "resources": [
+    "JMStaticLibrary/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ]
+}

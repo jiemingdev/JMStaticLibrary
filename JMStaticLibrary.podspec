@@ -21,22 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Jieming/JMStaticLibrary'
+  s.homepage         = 'https://github.com/jiemingdev/JMStaticLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Jieming' => 'jieming.zhou@tuya.com' }
-  s.source           = { :git => 'https://github.com/Jieming/JMStaticLibrary.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'jieming' => '307113345@qq.com' }
+  s.source           = { :git => 'https://github.com/jiemingdev/JMStaticLibrary.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JMStaticLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JMStaticLibrary' => ['JMStaticLibrary/Assets/*.png']
-  # }
+  s.resources = ['JMStaticLibrary/Assets/*.{png,xib,plist,xcassets,bundle}']
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

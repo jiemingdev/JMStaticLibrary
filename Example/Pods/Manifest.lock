@@ -1,0 +1,16 @@
+PODS:
+  - JMStaticLibrary (0.1.0)
+
+DEPENDENCIES:
+  - JMStaticLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  JMStaticLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMStaticLibrary: 62521818dcf95b1236d410c28da4ef4d52cdc09e
+
+PODFILE CHECKSUM: 8b4fa0f5e14f55589c45ade8b3e31e74c20a6114
+
+COCOAPODS: 1.10.1

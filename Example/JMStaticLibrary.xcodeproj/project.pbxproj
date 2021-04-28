@@ -61,12 +61,12 @@
 		6F055FA30BBA2BE7ACB234E9 /* Pods-JMStaticLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMStaticLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-JMStaticLibrary_Example/Pods-JMStaticLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6FCC247521A975EA5B75EEB3 /* Pods-JMStaticLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMStaticLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-JMStaticLibrary_Tests/Pods-JMStaticLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82B36BFEA1ADD93B4DD6CA4D /* JMStaticLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMStaticLibrary.podspec; path = ../JMStaticLibrary.podspec; sourceTree = "<group>"; };
+		82B36BFEA1ADD93B4DD6CA4D /* JMStaticLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMStaticLibrary.podspec; path = ../JMStaticLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9783EE646F342AB38C90783F /* Pods-JMStaticLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMStaticLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-JMStaticLibrary_Example/Pods-JMStaticLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A4B8B99805B632EF281137F1 /* Pods_JMStaticLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMStaticLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1782E291AB6FF94E03B3126 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FE15AED6BFAB3F17BDC8D92C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E1782E291AB6FF94E03B3126 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE15AED6BFAB3F17BDC8D92C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				2487B9FB517D74DCA523398C /* Pods-JMStaticLibrary_Tests.debug.xcconfig */,
 				6FCC247521A975EA5B75EEB3 /* Pods-JMStaticLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
